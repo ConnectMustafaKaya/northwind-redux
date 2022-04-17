@@ -1,8 +1,8 @@
-import * as actitonTypes from "./actionTypes"
+import * as actionTypes from "./actionTypes"
 
 export function changeCategory(category){
     return {
-        type:actitonTypes.CHANGE_CATEGORY,
+        type:actionTypes.CHANGE_CATEGORY,
         payload:category
     }
 }
